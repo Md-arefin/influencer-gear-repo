@@ -15,17 +15,18 @@ img{
 .container{
     width: 100%;
     max-width: 1450px;
-    padding: 30px 40px;
+    padding: 30px 20px;
     margin: 0 auto;
 }
 .nav_container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 .nav_title{
     font-size: 24px;
     font-weight: 700;
+    margin-left: -2px;
 }
 ul{
     display: flex;
@@ -71,3 +72,19 @@ ul{
     background: url("./images/Group\ 33091.svg")
 }
 /* ************************************************************** */
+.logo_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 880px;
+    height: 90px;
+    margin-left: 20px;
+    border-top:1px solid rgba(211, 211, 211, 0.562) ;
+    border-bottom:1px solid rgba(211, 211, 211, 0.562) ;
+}
+.logo{
+    width: 580px;
+    height: 40px;
+}
+/* *********************************************************** */
