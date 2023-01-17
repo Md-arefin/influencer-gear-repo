@@ -1,4 +1,73 @@
+:root{
+    --primary-font:'Poppins', sans-serif;
+    --primary-color:#E02C6D;
+    --background: #ffffffde; 
+}
 *{
     margin: 0;
     padding: 0;
+    background-color: var(--background);
 }
+img{
+    width: 100%;
+}
+/* *********************************************************** */
+.container{
+    width: 100%;
+    max-width: 1450px;
+    padding: 30px 40px;
+    margin: 0 auto;
+}
+.nav_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_title{
+    font-size: 24px;
+    font-weight: 700;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 25px;
+    font-weight: 500;
+}
+.icon_img{
+    width:24px ;
+    height: 24px;
+}
+.banner_description{
+    text-align: left;
+}
+.banner_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.banner_title{
+    font-size: 52px;
+    font-weight: 700;
+}
+.banner_text{
+    font-weight:500 ;
+    margin: 20px 0;
+
+}
+.btn_primary{
+    color: white;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    padding: 10px 10px;
+    margin: 10px 0;
+}
+.banner_img_container{
+    margin-top: 50px;
+    width: 440px;
+    height: 414px;
+    background: url("./images/Group\ 33091.svg")
+}
+/* ************************************************************** */
